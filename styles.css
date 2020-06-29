@@ -1,0 +1,220 @@
+
+body {
+    padding: 0px;
+    width: 95vw;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/nightsky2.jpeg);
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3a046f;
+    color: white;
+}
+
+button:hover {
+    background-color: #024968;
+    color: #b7ad90;
+}
+
+.section {
+    width: 100%;
+    padding: 15px 25px 15px 25px;
+}
+
+#header {
+    background-image: url(./assets/nightsky1.jpeg);
+    background-size: cover;
+    height: 150px;
+    margin-top: -21px;
+    color: white;
+}
+
+#header h1 {
+    font-size: 40px;
+}
+
+#topbar {
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    text-align: right;
+    margin-top: -140px;
+    margin-right: -25px;
+    width: 500px;
+    float: right;
+    font-size: larger;
+}
+
+.topLink {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.topLink a {
+    color: white;
+}
+
+.topLink a:hover {
+    color: #b7ad90;
+}
+
+#headLinks {
+    float: right;
+    font-size: x-large;
+    margin-top: -45px;
+}
+
+#body {
+    margin: 0px;
+}
+
+.content {
+    background-color: #b6932f;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* width: 900px; */
+    width: 65%;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+#about {
+    margin-bottom: 30px;
+}
+
+
+#about p {
+    text-align: center;
+    margin: 20px 50px 20px 40px;
+}
+
+#listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listing {
+    margin: 10px;
+    padding: 10px;
+    background-color: #225a73;
+    border-radius: 10px;
+    width: 250px;
+    height: 310px;
+    color: white;
+}
+
+.listing a {
+    color: #b7ad90;
+}
+
+.listing a:hover {
+    color: #b8a261;
+}
+
+.listImage {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#duckPic {
+    background-image: url(./assets/duck.jpeg);
+}
+
+#chairPic {
+    background-image: url(./assets/creepy\ vhair.jpg);
+    background-size: cover;
+}
+
+#shackPic {   
+    background-image: url(./assets/swamp\ shack.jpg);
+}
+
+#sandwichPic {
+    background-image: url(./assets/sandwich.jpg);
+}
+
+#bedPic {
+    background-image: url(./assets/bed.jpg);
+}
+
+#watchPic {
+    background-image: url(./assets/pocketwatch.jpg);
+}
+
+.listInfo h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: -6px;
+}
+
+.listInfo {
+    text-align: justify;
+}
+
+#viewAll {
+    margin-left: 45%;
+}
+
+#sidebar {
+    background-color: #225a73;
+    color: white;
+    margin-left: -10px;
+    padding: 10px;
+    width: 30%;
+    float: right;
+    border-radius: 10px;
+}
+
+#sidebar a {
+    color: #b7ad90;
+}
+
+#sidebar a:hover {
+    color: #b8a261;
+}
+
+#sidebar h2 {
+    text-align: center;
+}
+
+#sidebar p {
+    margin: 17px;
+}
+
+#footer {
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: #b7ad90;
+}
